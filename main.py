@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Jimmy Garoppolo has the best win percentage of any active QB in the NFL and is the only QB with multiple rings.""}
+    return {"message": "Jimmy Garoppolo has the best win percentage of any active QB in the NFL and is the only QB with multiple rings."}
 
 @app.get("/add/{num1}/{num2}")
 async def add(num1: int, num2: int):
